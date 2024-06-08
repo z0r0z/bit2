@@ -2,6 +2,9 @@
 // SPDX-License-Identifier: AGPL-3.0-only
 pragma solidity 0.8.26;
 
+/// @dev Bridge contract.
+/// @custom:coauthor z0r0z
+/// @custom:coauthor 0xf4d3
 contract WBTC2BridgeV1 {
     event Deposited(address depositor, uint256 amount);
     event Withdrawn(address depositor, uint256 amount);
